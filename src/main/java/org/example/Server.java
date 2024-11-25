@@ -1,9 +1,11 @@
 package org.example;
 
+import org.example.controller.UserController;
+
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
-import uni.local.controllers.UserController;
+
 
 public class Server {
     private ServerSocket serverSocket;
